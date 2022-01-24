@@ -33,7 +33,6 @@ int main()
             avg_std+=1;
         }
         printf("%.3f%%\n",(double)(avg_std *100 /x));
-        printf("æ»≥Á«œººø‰");
     }
     return 0;
 }
