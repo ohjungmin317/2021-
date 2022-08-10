@@ -12,10 +12,10 @@ from math import factorial as fact
 
 N,K = map(int, input().split())
 
-# def binomial(n,r):
-#     return fact(n) // fact(r) // fact(n-r)
+def binomial(n,r):
+    return fact(n) // fact(r) // fact(n-r)
 
-# print(binomial(N, K))
+print(binomial(N, K))
 
 
 # print(math.comb(N,K)) -> math 함수를 이용하여 comb python3.8 부터 사용이 가능하다. 
